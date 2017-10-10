@@ -1,6 +1,7 @@
 '''
 Defines some default parameters for the fashion victim model.
 '''
+'''parameters are changed'''
 
 DiscFac          = 0.95   # Intertemporal discount factor
 uParamA          = 100.0    # Parameter A in the utility function (pdf of the beta distribution)
