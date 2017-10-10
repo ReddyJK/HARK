@@ -14,7 +14,7 @@ from HARKinterpolation import LinearInterp
 from HARKutilities import approxUniform, plotFuncs
 import numpy as np
 import scipy.stats as stats
-import FashionVictimParams as Params
+import FashionVictimParamstest as Params
 from copy import copy
 
 class FashionSolution(Solution):
@@ -420,6 +420,8 @@ if __name__ == '__main__':
     do_many_types = True
     
     # Make a test case and solve the micro model
+for xindexi in range(0,2):
+
     TestType = FashionVictimType(**Params.default_params)
     print('Utility function:')
     plotFuncs(TestType.conformUtilityFunc,0,1)

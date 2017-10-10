@@ -3,18 +3,18 @@ Defines some default parameters for the fashion victim model.
 '''
 
 DiscFac          = 0.95   # Intertemporal discount factor
-uParamA          = 1.0    # Parameter A in the utility function (pdf of the beta distribution)
+uParamA          = 100.0    # Parameter A in the utility function (pdf of the beta distribution)
 uParamB          = 5.0    # Parameter B in the utility function (pdf of the beta distribution)
-punk_utility     = 0.0    # Direct utility received from dressing as a punk
+punk_utility     = 5.0    # Direct utility received from dressing as a punk
 jock_utility     = 0.0    # Direct utility received from dressing as a jock
-switchcost_J2P   = 2.0    # Cost of switching from jock to punk
+switchcost_J2P   = 5.0    # Cost of switching from jock to punk
 switchcost_P2J   = 2.0    # Cost of switching from punk to jock
 pCount           = 51     # Number of points in the grid of population punk proportion values
 pref_shock_mag   = 0.5    # Scaling factor for the magnitude of transitory style preference shocks
 pNextIntercept   = 0.1    # Intercept of linear function of beliefs over next period's punk proportion
 pNextSlope       = 0.8    # Slope of linear function of beliefs over next period's punk proportion
 pNextWidth       = 0.1    # Width of uniform distribution of next period's punk proportion (around linear function)
-pNextCount       = 10     # Number of points in discrete approximation to distribution of next period's p
+pNextCount       = 100     # Number of points in discrete approximation to distribution of next period's p
 pop_size         = 20     # Number of fashion victims of this type (for simulation)
 p_init           = 0.5    # Probability of being dressed as a punk when the simulation begins
 
